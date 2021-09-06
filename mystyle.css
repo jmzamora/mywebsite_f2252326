@@ -1,0 +1,48 @@
+div {
+    color: red;
+    border: 2px black solid;
+    padding: 100px 50px 20px 0px;
+    /* padding-top: 100px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-left: 0; */
+    margin: 100px 50px 20px 0px;
+    /* margin-top: 100px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-left: 0px; */
+} 
+
+p.simple {
+    border-style: dashed;
+    border-width: thick;
+    border-color: blue;
+    border-radius: 0%;
+}
+
+p.dual {
+    border-top-style: solid;
+    border-right-style: double;
+    border-bottom-style: dotted;
+    border-left-style: dashed;
+    border-top-color: black;
+    border-right-color: red;
+    border-bottom-color: green;
+    border-left-color: yellow;
+    border-top-width: 100px;
+    border-right-width: 50px;
+    border-bottom-width: 20px;
+    border-left-width: 1px;    
+}
+
+p.combinado {
+    border-top: greenyellow 50px dashed;
+    border-right: dashed 20px blueviolet;
+    border-bottom: 100px gray solid;
+    border-left: red groove 5px;
+}
+
+p.articulo {
+    border: 5px solid black;
+    outline: 30px solid green;
+}

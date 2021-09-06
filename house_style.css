@@ -1,0 +1,89 @@
+* {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+h1, h2 {
+    color:blue;
+}
+
+.titulo3 {
+    border-bottom: 2px black solid;
+}
+
+#identificador3 {
+    border-bottom: 2px purple dashed;
+}
+
+p.colorsito {
+    color: grey;
+    font-style: italic;
+}
+
+article p {
+    color: green;
+}
+
+section, div, #nieto {
+    border: 1px dashed black;
+}
+
+/* #nieto {
+    border: 1px dashed black;
+} */
+
+section > p {
+    background-color: dodgerblue;
+}
+
+a {
+    margin: 10px;
+    padding: 5px;
+    background-color: lightgray;
+}
+
+
+a:link {
+    border: 1px red solid;
+    color: red;
+}
+
+a:visited {
+    border: 1px green solid;
+    color: green;
+}
+
+a:hover{
+    border: 1px blue solid;
+    color: blue;
+}
+
+a:active{
+    border: 1px orange solid;
+    color:orange;
+}
+
+p::first-letter {
+    font-size: 30px;
+    color: red;
+}
+
+p::first-line {
+    font-variant: small-caps;
+    font-style: italic;
+}
+
+h2::before {
+    content: url(https://www.w3schools.com/css/smiley.gif);
+}
+
+p::selection {
+    background-color: palevioletred;
+    color:darkmagenta
+}
+
+[class^="color"] {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-left: 5px lightseagreen solid;
+    margin-left: 30px;
+}
